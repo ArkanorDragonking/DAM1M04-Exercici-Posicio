@@ -19,7 +19,16 @@ hr {
     display: none;
 }
 
-h2 {
+.tarjeta-producte {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-top: 5px solid #457b9d; 
+}
+
+.tarjeta-producte h2 {
     color: #1d3557;
     background-color: #ffffff;
     margin-top: 50px;
@@ -29,7 +38,7 @@ h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
 }
 
-p {
+.tarjeta-producte p {
     background-color: #ffffff;
     padding: 0 25px 20px 25px;
     margin-top: 0;
@@ -38,7 +47,7 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
 }
 
-img {
+.tarjeta-producte .img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -50,17 +59,9 @@ img {
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-img:hover {
+.tarjeta-producte img:hover {
     transform: scale(1.02); 
     border-color: #2a9d8f; 
     box-shadow: 0 10px 20px rgba(42, 157, 143, 0.2);
 }
 
-.tarjeta-producte {
-    background-color: #ffffff;
-    margin-bottom: 40px;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    border-top: 5px solid #457b9d; 
-}
