@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f1;
+    color: #2c3e50;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    line-height: 1.6;
+}
