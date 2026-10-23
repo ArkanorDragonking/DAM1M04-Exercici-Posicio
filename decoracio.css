@@ -25,7 +25,7 @@ h1 {
     border-top: 5px solid #457b9d; 
 }
 
-.Producte h2 {
+.Producte, .targeta h2 {
     color: #1d3557;
     background-color: #ffffff;
     margin-top: 50px;
@@ -35,7 +35,7 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
 }
 
-.Producte p {
+.Producte, .targeta p {
     background-color: #ffffff;
     padding: 0 25px 20px 25px;
     margin-top: 0;
@@ -62,3 +62,37 @@ h1 {
     box-shadow: 0 10px 20px rgba(42, 157, 143, 0.2);
 }
 
+
+.logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.logo img {
+    border-radius: 50%;
+    border: 3px solid #e2e8f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.targeta {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-top: 5px solid #457b9d; 
+}
+
+.targeta h2 {
+    color: #1d3557;
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 2px solid #f0f4f1;
+    padding-bottom: 10px;
+}
+
+.targeta p {
+    color: #4a5568;
+    margin-bottom: 0;
+}
