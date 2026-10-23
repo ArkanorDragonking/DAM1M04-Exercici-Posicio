@@ -55,3 +55,12 @@ img:hover {
     border-color: #2a9d8f; 
     box-shadow: 0 10px 20px rgba(42, 157, 143, 0.2);
 }
+
+.tarjeta-producte {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-top: 5px solid #457b9d; 
+}
