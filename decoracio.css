@@ -323,3 +323,69 @@ footer a:hover {
     font-size: 1.2em;
     margin-top: 10px;
 }
+
+.grid-contacte {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dues columnes d'igual mida */
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .grid-contacte {
+        grid-template-columns: 1fr;
+    }
+}
+
+.grup-camp {
+    margin-bottom: 20px;
+}
+
+.grup-camp label {
+    display: block;
+    font-weight: bold;
+    color: #1d3557;
+    margin-bottom: 8px;
+}
+
+.grup-camp input,
+.grup-camp textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.95em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.boto-enviar {
+    background-color: #2a9d8f;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.boto-enviar:hover {
+    background-color: #21867a;
+    transform: translateY(-2px);
+}
+
+.mapa-fictici {
+    background-color: #e2e8f0;
+    border-top: 5px solid #1d3557;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a5568;
+    font-weight: bold;
+    font-size: 1.1em;
+}
