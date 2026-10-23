@@ -279,3 +279,47 @@ footer a:hover {
     text-align: center;
     flex: 1;
 }
+
+.barra-filtres {
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.barra-filtres span {
+    font-weight: bold;
+    color: #1d3557;
+}
+
+.barra-filtres a {
+    color: #4a5568;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.95em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.barra-filtres a:hover, .barra-filtres a.actiu {
+    background-color: #457b9d;
+    color: #ffffff;
+}
+
+.grid-productes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.preu {
+    color: #2a9d8f;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
